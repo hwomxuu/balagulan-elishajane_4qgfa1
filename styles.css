@@ -1,0 +1,211 @@
+* {
+    font-family: 'Poppins';
+    margin: 0;
+}
+
+body {
+  margin:0; padding:0;
+}
+
+header {
+  background-image: url(images/banner-hope_1.jpg);
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header h1 {
+  padding: 135px 0px;
+  font-family: 'Poppins', serif;
+  font-size: 45px;
+  color: rgb(236, 173, 47);
+  text-align: center;
+  text-shadow: 3px 3px 10px black, -1px -1px 10px black, 1px -1px 2px black, -1px 1px 2px black;
+  position: relative;
+  width: 60%;
+  text-align: left;
+  margin-left: 35px;
+}
+
+form {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 5px solid rgb(236, 173, 47);;
+}
+
+input[type=text] {
+  width: 94.2%;
+  height: 32px;
+  border-radius: 5px;
+  border: solid;
+  border-color: rgb(120, 120, 120);
+  border-width: 1px;
+  font-size: 16px;
+  font-family: 'Fira Sans', serif;
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
+  background-color: #dadada;
+  padding: 0px 10px;
+}
+
+input[type=reset], input[type=submit]  {
+  font-size: 16px;
+  width: 100px;
+  height: auto;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  border: solid;
+  border-color:rgb(193, 157, 14);
+  border-width: 2px;
+  margin: 0px 30px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  position: relative;
+  display: inline;
+  width: 100px;
+  font-family: 'Fira Sans', serif;
+}
+
+input[type=reset]:after, input[type=submit]:after {
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+input[type=reset]:hover, input[type=submit]:hover {
+  background-color: rgb(193, 157, 14);
+  color: white;
+  border-color: rgb(179, 146, 14);
+}
+
+input:focus {
+  outline-color: rgb(193, 157, 14);;
+  background-color: white;
+}
+
+label {
+  display: block;
+  margin: 2px 0px;
+}
+
+hr {
+  border: 1px solid black;
+  margin: 10px 0px;
+}
+
+#main {
+    background-color: white;
+    padding: 20px;
+    padding-bottom:20px;
+}
+
+.red {
+    color:#ff0000; 
+}
+
+#upper {
+    background-color: rgb(236, 173, 47);
+    width: auto;
+    height: 10px;
+}
+
+#buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+  
+#divider{
+    text-align: center;
+}
+
+#sub1 p {
+    padding: 5px 25px;
+    text-align: justify;
+}
+
+#radio-group label {
+    display: inline-block;
+} 
+  
+#signup-form {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    width: 35%;
+}
+
+#sub1 { 
+    width:65%; 
+}
+  
+footer {
+    background-color: rgb(236, 173, 47);
+    padding: 20px;
+}
+  
+footer p {
+    font-family: 'Fira Sans', serif;
+    color: white;
+    font-size: 12px;
+}
+  
+.sub-footer {
+    padding: 0px 150px;
+    text-align: center; 
+    color:#FFFFFF; 
+    font-size: 0.8em;
+    font-family: 'Roboto', sans-serif;
+}
+  
+#fdetails {
+  font-size: 12px;
+  color: white;
+}
+
+  #sprites1 {
+    background: url(images/sm-icons1.png) 0px 0px/160px auto; 
+    width: 55px;
+    height: 55px;
+}
+  
+  #sprites2 {
+    background: url(images/sm-icons1.png) -52px -55px/160px auto; 
+    width: 55px;
+    height: 55px;
+}
+  
+  #sprites3 {
+    background: url(images/sm-icons1.png) -104px -55px/160px auto; 
+    width: 55px;
+    height: 55px;
+}
+  
+  #sprites1:hover {
+    filter: brightness(75%);
+}
+  
+  #sprites2:hover {
+    filter: brightness(75%);
+}
+  
+  #sprites3:hover {
+    filter: brightness(75%);
+}
+
+  .social-icon {
+    margin: 15px 5px;
+    display: inline-block;
+}
+  
+  .socmed .social-icon:first-child {
+    margin-left:0; 
+}
+  
+  .socmed { 
+    float: right;
+}

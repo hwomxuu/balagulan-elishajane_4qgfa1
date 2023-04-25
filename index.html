@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=PT+Sans&family=Poppins&display=swap">
+    <title>Charity Sign-Up Form</title>
+</head>
+<body>
+    <div id="upper"></div>
+    <header>
+        <h1>House of Hope Foundation for Kids with Cancer Inc.</h1>
+    </header>
+    <div id="main">
+        <div id="sub1">
+            <p>The House of Hope is a Hospital-based school catering to children of school age who are patients of the SPMC Children's Cancer Institute. Families come together, and occasionally they fall apart from the strain of dealing with a catastrophic illness, specifically cancer. Finding cures and continuously providing care for these little ones is a tremendous challenge. Despite the difficulties and lack of resources, there is HOPE that we have in abundance. </p>
+            <p>I am supporting this charity organization because it improves childhood cancer survival rates and finds kinder, more effective treatments to reduce long-term side effects. It aims to provide psychosocial support for parents and families with children afflicted with cancer. It also brings hope and better understanding of child cancer through education and to empower parents and families in their fight against cancer.</p>
+        </div>
+        <div id="signup-form">
+            <form onsubmit="event.preventDefault(); formSubmit();" action="https://www.kidsofhope.org/" method="post">
+                <div id="divider">
+                    <hr>
+                    <h2>Sign Up</h2>
+                    <hr>
+                </div>
+                <div class="container">
+                    <label for="fname"><b>First name<span class="red"> *</span></b></label>
+                    <input type="text" placeholder="Enter First Name" id="fname" name="fname" required>
+                
+                    <label for="lname"><b>Last name<span class="red"> *</span></b></label>
+                    <input type="text" placeholder="Enter Last Name" id="lname" name="lname" required>
+                    
+                    <div id="radio-group">
+                        <p>Please select your sex.<span class="red"> *</span></p>
+                        <input type="radio" id="male" name="sex" value="Male" required>
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="sex" value="Female">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="pnts" name="sex" value="PNTS">
+                        <label for="pnts">Prefer not to say</label>
+                    </div>
+
+                    <label for="email"><b>Email address<span class="red"> *</span></b></label>
+                    <input type="text" placeholder="Enter email address" id="email" name="email" required>
+
+                    <label for="contactnum"><b>Contact number</b></label>
+                    <input type="text" placeholder="Enter contact number" id="contactnum" name="contactnum">
+                   
+                    <div id="buttons">
+                        <input type="reset" value="Reset">
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+            </form>
+        </div>   
+    </div>
+    <footer>
+        <div class="contact-wrapper">
+            <div class="socmed">
+                <span class="social-icon">
+                    <a href="https://www.facebook.com/eli.jb23"><img id="sprites1" src="images/img_trans.png" width="1" height="1" alt="fb icon"></a>
+                </span>
+                <span class="social-icon">
+                    <a href="https://twitter.com/hwomxuu"><img id="sprites2" src="images/img_trans.png" width="1" height="1" alt="twt icon"></a>
+                </span>
+                <span class="social-icon">
+                    <a href="https://www.instagram.com/_kiwi.desu/"><img id="sprites3" src="images/img_trans.png" width="1" height="1" alt="ig icon"></a>
+                </span>
+            </div>
+            <div id="fdetails">Philippine Science High School Southern Mindanao Campus<br>
+            Brgy. Sto. Nino, Tugbok District, Davao City<br>
+            (082) 293-0002 loc 116<br>
+            info@smc.pshs.edu.ph</div>
+        </div>
+		<div class="sub-footer">
+		All Rights Reserved &copy; 2022 Elisha Jane
+		</div>
+	</footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
